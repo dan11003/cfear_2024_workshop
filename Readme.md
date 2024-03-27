@@ -8,6 +8,7 @@ python3 cfear_eval.py
 ```
 
 ## (Optional) Rerun experiments
+### Install
 
 create catkin_ws
 ```
@@ -20,7 +21,7 @@ catkin build
 source devel/setup.bash
 ```
 
-## Run
+## Run evaluation
 ```
 roscd cfear_radarodometry/launch/oxford/eval/
 ./1.1_boreas_baseline_eval 
