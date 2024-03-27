@@ -1,34 +1,39 @@
-## Install
+# Work in progress -- ICRA radar in robotics workshop 2024
+## Present CFEAR evaluation
+
+```
+git clone https://github.com/dan11003/cfear_2024_workshop.git # This can take some time
+cd cfear_2024_workshop/
+python3 cfear_eval.py
+```
+
+## (Optional) Rerun experiments
+### Install
 
 create catkin_ws
 ```
-Git clone cfear (private repo)
+git clone cfear (private repo)
 git clone github.com:dan11003/radar_kitti_benchmark.git branch export-less
 git clone https://github.com/utiasASRL/pyboreas.git
 
-cd .. catkin build
+cd ..
+catkin build
 source devel/setup.bash
 ```
 
-## Run
+## Run evaluation
 ```
 roscd cfear_radarodometry/launch/oxford/eval/
 ./1.1_boreas_baseline_eval 
 ```
+Move evaluation to **cfear_2024_workshop/eval_test_set**
 
-## Evaluate
-Depends on if **test set** or **training set** is evaluated, see commented lines in 1.1_boreas_baseline_eval.
-
-copy result of evaluation to **eval_test_set** or **eval_train_set**, that should end up in something like:
-
+Consistency with pyboreas benchmark can be verified via:
 ```
-val_train_set/boreas_cfear-3-P2D_2024-03-19_1600/
+eval_all.sh
 ```
 
-
-```
-./eval_all.sh
-```
-
+## Prepare submission
+./prepare_submission.sh
 
 
