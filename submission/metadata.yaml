@@ -1,0 +1,12 @@
+benchmark: odometry
+methodname: ICRA_CFEAR
+email: dla.adolfsson@gmail.com
+2d: True
+author: Daniel Adolfsson
+papertitle: CFEAR Radar odometry
+paperurl: https://arxiv.org/abs/2211.02445
+venue: T-RO
+year: 2022
+runtimeseconds: 0.0074
+computer: AMD Ryzen 7 7800x3d @ 5.0GHz
+sensors: ['radar', 'IMU']

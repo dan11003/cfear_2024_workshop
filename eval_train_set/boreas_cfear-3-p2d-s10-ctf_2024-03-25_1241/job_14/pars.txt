@@ -1,0 +1,88 @@
+range res, -1
+z min, 60
+min distance, 2.5
+max distance, 200
+k strongest, 12
+topic_filtered, /Navtech/Filtered
+radar_frameid, 
+dataset, boreas
+filter type, kstrong
+nb guard cells, 12
+window size, 1
+false alarm rate, 1
+cost type, P2D
+submap keyframes, 10
+resolution r,3
+min. sensor distance [m], 1.5
+min. sensor rot. [deg], 5
+weight intensity, true
+Weight, 4
+resample factor f, 1
+use keyframe, true
+use initial guess, true
+radar reversed, true
+disable registration, false
+soft velocity constraint, false
+compensate, true
+loss type, Huber
+loss limit, 0.100000
+covar scale, 1.000000
+regularization, 1.000000
+publish_tf, true
+odom_est_topic, 
+gt_topic, 
+est_output_dir, /media/daniel/slow_m2/CFEAR_EVAL/multi_2024-03-25_1229/boreas_cfear-3-p2d-s10-ctf_2024-03-25_1241/job_14/est/
+gt_output_dir, /media/daniel/slow_m2/CFEAR_EVAL/multi_2024-03-25_1229/boreas_cfear-3-p2d-s10-ctf_2024-03-25_1241/job_14/gt/
+sequence, boreas-2021-04-20-14-11
+job nr, 14
+save pcd, 0
+method, cfear-3-p2d-s10-ctf
+interpolate, 0
+
+nr_frames, 3931
+Filtering - peaks avg, 0.539468
+Filtering - peaks dev [σ], 0.005549
+Filtering - peaks count, 3931
+itrs avg, 3.639949
+itrs dev [σ], 0.230414
+itrs count, 3930
+Filtering avg, 1.732054
+Filtering dev [σ], 0.163667
+Filtering count, 3931
+full-filt avg, 1.732890
+full-filt dev [σ], 0.163705
+full-filt count, 3931
+publish_etc avg, 0.041285
+publish_etc dev [σ], 0.000269
+publish_etc count, 3930
+register avg, 11.648751
+register dev [σ], 11.864060
+register count, 3930
+Filtered points avg, 4393.194098
+Filtered points dev [σ], 90637.383593
+Filtered points count, 3931
+full-est avg, 12.802923
+full-est dev [σ], 12.624207
+full-est count, 3931
+Filtering - filtering avg, 1.081406
+Filtering - filtering dev [σ], 0.070142
+Filtering - filtering count, 3931
+velocity avg, 8.142772
+velocity dev [σ], 18.573729
+velocity count, 3930
+compensate avg, 0.045164
+compensate dev [σ], 0.000063
+compensate count, 3930
+build avg, 1.333653
+build dev [σ], 0.262718
+build count, 14305
+solve avg, 1.525414
+solve dev [σ], 0.264494
+solve count, 14305
+Surface points avg, 223.773595
+Surface points dev [σ], 2384.082549
+Surface points count, 3931
+build_normals avg, 1.056282
+build_normals dev [σ], 0.025286
+build_normals count, 3930
+
