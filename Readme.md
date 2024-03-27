@@ -11,7 +11,7 @@ python3 cfear_eval.py
 
 create catkin_ws
 ```
-Git clone cfear (private repo)
+git clone cfear (private repo)
 git clone github.com:dan11003/radar_kitti_benchmark.git branch export-less
 git clone https://github.com/utiasASRL/pyboreas.git
 
